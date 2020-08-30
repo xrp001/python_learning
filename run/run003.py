@@ -1,7 +1,7 @@
 # coding: utf-8
 import os
 
-from fun.fun003 import fact, xx
+from fun.fun003 import fact, xx, odd
 
 #####################################
 print fact(5)
@@ -53,11 +53,15 @@ M = ['Hello', 'World', 18, 'Apple', None]
 print [s.lower() for s in M if isinstance(s, str)]
 
 #####################################
+# 生成器
+g = (x * x for x in range(10))
+print g
+for i in g:
+    print i
 
-#####################################
-
-#####################################
-
-#####################################
+o = odd()
+o.next()
+o.next()
+o.next()
 
 #####################################

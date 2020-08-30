@@ -16,3 +16,13 @@ def xx(n):
     for i in range(1, n):
         L.append(i * i)
     return L
+
+
+# 生成器 generator
+def odd():
+    print 'step 1'
+    yield 1
+    print 'step 2'
+    yield 3
+    print 'step 3'
+    yield 5
