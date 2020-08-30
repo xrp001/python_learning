@@ -1,5 +1,5 @@
 # coding: utf-8
-from fun.fun002 import enroll, calc, calc2, person
+from fun.fun002 import enroll, calc, calc2, person, fun_multiple_args
 
 #####################################
 enroll("Chris", "M", 14, "Nanjing")
@@ -30,3 +30,18 @@ print calc2()
 #####################################
 person("Chris", 12, gender="M", country="China")
 person("May", 14, country="USA")
+
+lee_info = {"city": "Beijing", "job": "student"}
+person("Lee", 24, **lee_info)
+
+#####################################
+fun_multiple_args(1, 2)
+fun_multiple_args(1, 2, 3)
+fun_multiple_args(1, 2, 3, "a", "b")
+fun_multiple_args(1, 2, 3, "a", "b", x=99)
+
+args = (1, 2, 3, 4)
+kw = {"x": 99}
+fun_multiple_args(*args, **kw)
+
+#####################################
