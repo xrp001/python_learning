@@ -1,5 +1,5 @@
 # coding: utf-8
-from fun.fun005 import log, now, now2, log2, now3, now4, log4, now7, now8
+from fun.liaoxuefeng.fun005 import log, now, now2, log2, now3, now4, now7
 
 #####################################
 now()

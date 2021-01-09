@@ -1,5 +1,5 @@
 # coding: utf-8
-from fun.fun002 import enroll, calc, calc2, person, fun_multiple_args
+from fun.liaoxuefeng.fun002 import enroll, calc, calc2, person, fun_multiple_args
 
 #####################################
 enroll("Chris", "M", 14, "Nanjing")
