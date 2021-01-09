@@ -1,5 +1,5 @@
 # coding: utf-8
-from fun.fun001 import power
+from fun.liaoxuefeng.fun001 import power
 
 a = 100 + 200
 print a

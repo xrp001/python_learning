@@ -1,7 +1,7 @@
 # coding: utf-8
 import os
 
-from fun.fun003 import fact, xx, odd
+from fun.liaoxuefeng.fun003 import fact, xx, odd
 
 #####################################
 print fact(5)
@@ -47,7 +47,7 @@ print xx(20)
 print [x * x for x in range(1, 11)]
 print [x * x for x in range(1, 11) if x % 2 == 0]
 
-print [d for d in os.listdir('.')]
+print [d for d in os.listdir('..')]
 
 M = ['Hello', 'World', 18, 'Apple', None]
 print [s.lower() for s in M if isinstance(s, str)]

@@ -1,7 +1,6 @@
 # coding: utf-8
-from string import lower, upper
 
-from fun.fun004 import add, f, add2, fn, char2num, is_odd
+from fun.liaoxuefeng.fun004 import add, f, add2, fn, char2num, is_odd
 
 #####################################
 # 传入函数
