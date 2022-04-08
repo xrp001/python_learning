@@ -2,7 +2,7 @@
 from fun.liaoxuefeng.fun001 import power
 
 a = 100 + 200
-print a
+print (a)
 print 'hello,world'
 print 'The quick brown fox', 'jumps over', 'the lazy dog'
 
