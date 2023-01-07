@@ -9,7 +9,7 @@ import functools
 
 def log(func):
     def wrapper(*args, **kwargs):
-        print 'call %s()' % func.__name__
+        print('call %s()' % func.__name__)
         return func(*args, **kwargs)
 
     return wrapper
@@ -17,17 +17,17 @@ def log(func):
 
 @log
 def now():
-    print '2020-09-03 now'
+    print('2020-09-03 now')
 
 
 def now2():
-    print '2020-09-03 now'
+    print('2020-09-03 now')
 
 
 def log2(text):
     def decorator(func):
         def wrapper(*args, **kwargs):
-            print '%s %s():' % (text, func.__name__)
+            print('%s %s():' % (text, func.__name__))
             return func(*args, **kwargs)
 
         return wrapper
@@ -37,11 +37,11 @@ def log2(text):
 
 @log2('execute')
 def now3():
-    print '2020-09-06 now3'
+    print('2020-09-06 now3')
 
 
 def now4():
-    print '2020-09-06 now4'
+    print('2020-09-06 now4')
 
 
 # def log3(func):
@@ -62,7 +62,7 @@ def log4(text):
     def decorator(func):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
-            print '%s %s():' % (text, func.__name__)
+            print('%s %s():' % (text, func.__name__))
             return func(*args, **kwargs)
 
         return wrapper
@@ -72,8 +72,8 @@ def log4(text):
 
 @log4('execute')
 def now7():
-    print '2020-09-06 now7'
+    print('2020-09-06 now7')
 
 
 def now8():
-    print '2020-09-06 now8'
+    print('2020-09-06 now8')

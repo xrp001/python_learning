@@ -1,6 +1,5 @@
 # coding:utf-8
 
-
 # 默认参数
 def power(xx, n=2):
     s = 1

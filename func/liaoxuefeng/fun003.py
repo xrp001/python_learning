@@ -1,6 +1,5 @@
 # coding: utf-8
 
-
 # 函数递归
 # 在函数内部，可以调用其他函数。如果一个函数在内部调用自身本身，这个函数就是递归函数。
 def fact(n):
@@ -20,9 +19,9 @@ def xx(n):
 
 # 生成器 generator
 def odd():
-    print 'step 1'
+    print('step 1')
     yield 1
-    print 'step 2'
+    print('step 2')
     yield 3
-    print 'step 3'
+    print('step 3')
     yield 5

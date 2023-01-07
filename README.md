@@ -1,11 +1,11 @@
 # python_learning
 python learning!!!!!
 ```
-fun
-|---crash_course
+func
+|---python_crash_course
 |---liaoxuefeng
 
 run
-|---crash_course
+|---python_crash_course
 |---liaoxuefeng
 ```

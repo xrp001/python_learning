@@ -1,5 +1,5 @@
 # coding: utf-8
-
+from functools import reduce
 
 # 传入函数
 # 一个函数可以接收另一个函数作为参数，这种函数就称之为高阶函数。
